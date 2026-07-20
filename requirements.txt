@@ -1,0 +1,14 @@
+# ---- Phase 1: Core Python & In-Memory SQLite Engine ----
+pytest==8.3.3
+
+# ---- Phase 2: Pydantic Contracts & FastAPI Endpoints ----
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pandas==2.2.3
+httpx==0.27.2
+
+# ---- Phase 3: LLM Client & Observability (uncomment when we get there) ----
+# groq==0.11.0
+# langfuse==2.51.3
+# streamlit==1.38.0
